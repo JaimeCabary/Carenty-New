@@ -119,7 +119,7 @@ export default function WelcomePage() {
   }
 
   return (
-    <div className="fixed inset-0 w-full h-[100dvh] bg-[#0a0a0a] overflow-hidden flex flex-col items-center">
+    <div className="fixed inset-0 w-full h-dvh bg-[#0a0a0a] overflow-hidden flex flex-col items-center">
       
       {/* Absolute Header - Skip */}
       <div className="absolute top-0 left-0 w-full pt-10 px-6 z-50 flex justify-end pointer-events-none">
@@ -177,13 +177,13 @@ export default function WelcomePage() {
              alt={`Slide ${currentSlide}`}
              className="w-full h-full object-cover object-center scale-105"
            />
-           <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-black/40 to-[#0a0a0a]" />
+           <div className="absolute inset-0 bg-linear-to-b from-black/20 via-black/40 to-[#0a0a0a]" />
         </motion.div>
       </AnimatePresence>
 
       {/* Content Container (Fixed Bottom) */}
       <div className="absolute bottom-0 left-0 w-full z-20 pointer-events-none flex justify-center">
-        <div className="w-full max-w-md px-6 pb-12 pt-24 text-white pointer-events-auto flex flex-col justify-end bg-gradient-to-t from-[#0a0a0a] via-[#0a0a0a]/80 to-transparent">
+        <div className="w-full max-w-md px-6 pb-12 pt-24 text-white pointer-events-auto flex flex-col justify-end bg-linear-to-t from-[#0a0a0a] via-[#0a0a0a]/80 to-transparent">
           
            <AnimatePresence mode="wait" custom={direction}>
           <motion.div
@@ -199,7 +199,7 @@ export default function WelcomePage() {
             <h1 className="text-[44px] leading-[1.1] font-bold tracking-tight mb-4 text-white drop-shadow-lg">
               {SLIDES[currentSlide].title}
             </h1>
-            <p className="text-lg text-white/80 font-medium max-w-[280px] leading-snug drop-shadow-md">
+            <p className="text-lg text-white/80 font-medium max-w-70 leading-snug drop-shadow-md">
               {SLIDES[currentSlide].subtitle}
             </p>
           </motion.div>
