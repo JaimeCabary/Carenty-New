@@ -143,7 +143,7 @@ export default function WelcomePage() {
             animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
             exit={{ opacity: 0, scale: 1.2, filter: "blur(20px)" }}
             transition={{ duration: 1.2, ease: [0.22, 1, 0.36, 1] }}
-            className="absolute  md:inset-auto md:top-14 md:left-10 z-40 pointer-events-none flex items-center justify-center md:block md:pt-0"
+            className="absolute top-[35%] -translate-y-1/2 left-0 right-0 md:inset-auto md:top-14 md:left-10 md:translate-y-0 z-40 pointer-events-none flex items-center justify-center md:block md:pt-0"
           >
             <span 
               className="font-black text-[3.5rem] sm:text-[4.5rem] md:text-[5rem] lg:text-[6rem] tracking-tighter text-white drop-shadow-[0_20px_50px_rgba(0,0,0,0.9)] leading-none uppercase" 
