@@ -7,10 +7,7 @@ const nextConfig: NextConfig = {
       { protocol: "https", hostname: "**" },
     ],
   },
-  // To silence the Turbopack error when using custom plugins
-  experimental: {
-    // turbo: {},
-  },
+  turbopack: {},
 };
 
 export default withPWA({

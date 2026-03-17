@@ -146,7 +146,7 @@ export default function WelcomePage() {
             className="absolute top-[35%] -translate-y-1/2 left-0 right-0 md:inset-auto md:top-14 md:left-10 md:translate-y-0 z-40 pointer-events-none flex items-center justify-center md:block md:pt-0"
           >
             <span 
-              className="font-black text-[3.5rem] sm:text-[4.5rem] md:text-[5rem] lg:text-[6rem] tracking-tighter text-white drop-shadow-[0_20px_50px_rgba(0,0,0,0.9)] leading-none uppercase" 
+              className="font-black text-[4.2rem] sm:text-[6.5rem] md:text-[7.6rem] lg:text-[6rem] tracking-tighter text-white drop-shadow-[0_20px_50px_rgba(0,0,0,0.9)] leading-none uppercase" 
               style={{ fontFamily: "'Syncopate', sans-serif", letterSpacing: "-0.05em" }}
             >
               CARENTY
